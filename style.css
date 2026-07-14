@@ -433,12 +433,12 @@ footer p {
   }
 }@media (max-width: 600px){
   h1{
-    font-size: 42px;
-    line-height: 1.02;
-    letter-spacing: -1.8px;
-    max-width: 330px;
-    margin: 0 auto 20px;
-  }
+    font-size: 34px;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    max-width: none;
+    white-space: nowrap;
+}
 
   .subtitle{
     font-size: 18px;
