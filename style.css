@@ -426,22 +426,36 @@ footer p {
     transition-duration: .001ms !important;
   }
 }
-@media(max-width:600px){
-  .brand{
-    font-size:24px;
-    margin-bottom:14px;
-  }
-}@media (max-width: 600px){
-  h1{
-    font-size: 34px;
-    line-height: 1.1;
-    letter-spacing: -1px;
-    max-width: none;
-    white-space: nowrap;
+@media (max-width:600px){
+
+    .brand{
+        font-size:24px;
+        margin-bottom:14px;
+    }
+
+    h1{
+        text-align:center;
+        margin:0 auto 18px;
+        font-size:34px;
+        line-height:1.1;
+        letter-spacing:-1px;
+        white-space:nowrap;
+    }
+
+    .subtitle{
+        text-align:center;
+        margin:0 auto 24px;
+        max-width:340px;
+    }
+
+    .badges{
+        justify-content:center;
+    }
+
+    .join-button{
+        margin:0 auto;
+    }
+
 }
 
-  .subtitle{
-    font-size: 18px;
-    line-height: 1.45;
-  }
 }
