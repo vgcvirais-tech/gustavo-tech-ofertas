@@ -91,22 +91,25 @@ body::before {
   text-align: center;
 }
 
-.brand {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 28px;
-  color: var(--orange);
-  font-size: 17px;
-  font-weight: 900;
-  letter-spacing: -0.4px;
+.brand{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  margin:0 auto 14px;
+  color:#ff7a00;
+  font-size:30px;
+  font-weight:900;
+  line-height:1.1;
+  letter-spacing:-0.8px;
+  text-align:center;
 }
 
-.profile-wrap {
-  position: relative;
-  width: 190px;
-  height: 190px;
-  margin:0 auto 18px;
+.profile-wrap{
+  position:relative;
+  width:190px;
+  height:190px;
+  margin:0 auto 24px;
 }
 
 .profile-glow {
@@ -223,7 +226,7 @@ h1 {
     font-weight:700;
     line-height:1.1;
 }
-}
+
 
 .button-copy small{
     display:block;
@@ -421,5 +424,11 @@ footer p {
     animation-duration: .001ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: .001ms !important;
+  }
+}
+@media(max-width:600px){
+  .brand{
+    font-size:24px;
+    margin-bottom:14px;
   }
 }
