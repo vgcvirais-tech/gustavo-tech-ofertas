@@ -80,10 +80,11 @@ body::before {
   to { transform: translateX(-50%); }
 }
 
-.page {
-  width: min(100%, 560px);
-  margin: 0 auto;
-  padding: 24px 20px 20px;
+.page{
+    width:min(100%,560px);
+    margin:auto;
+    padding:10px 20px 20px;
+}
 }
 
 .hero {
@@ -105,7 +106,7 @@ body::before {
   position: relative;
   width: 190px;
   height: 190px;
-  margin: 0 auto 26px;
+  margin:0 auto 18px;
 }
 
 .profile-glow {
@@ -176,7 +177,7 @@ h1 {
   align-items: center;
   gap: 13px;
   width: 100%;
-  min-height: 88px;
+ min-height:96px;
   padding: 14px 17px;
   color: #fff;
   text-align: left;
@@ -198,24 +199,23 @@ h1 {
   filter: brightness(1.06);
 }
 
-.button-icon {
-  display: grid;
-  place-items: center;
-  width: 46px;
-  height: 46px;
-  border: 2px solid rgba(255,255,255,.86);
-  border-radius: 50%;
-  font-size: 23px;
-  transform: rotate(-18deg);
+ .button-icon{
+    display:grid;
+    place-items:center;
+    width:52px;
+    height:52px;
+    border-radius:50%;
+    background:white;
+    color:#25D366;
+    font-size:30px;
 }
-
 .button-copy {
   min-width: 0;
 }
 
-.button-copy strong {
-  display: block;
-  font-size: 18px;
+.button-copy strong{
+font-size:22px;
+}
   line-height: 1.18;
 }
 
@@ -223,7 +223,7 @@ h1 {
   display: block;
   margin-top: 4px;
   color: rgba(255,255,255,.82);
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .button-arrow {
